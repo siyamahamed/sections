@@ -1,0 +1,406 @@
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+
+.big-menu ul li {
+	height: 250px;
+}
+.big-menu ul li a {
+	padding: 150px 18px 30px;
+}
+
+
+
+}
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+.slider-text-tablecell {
+	font-size: 80px;
+	line-height: 80px;
+}
+.home-page-slider-wrap .owl-carousel .owl-item .single-slider img {
+	width: 700px;
+}
+.big-menu {
+	margin-bottom: 0px;
+}
+.big-menu ul li {
+	height: 150px;
+	font-size: 30px;
+}
+.big-menu ul li a {
+	padding: 85px 18px 30px;
+}
+.product-list {
+	margin: 45px 0px 40px 0;
+}
+.single-product-item {
+	height: 300px;
+	width: 31.333%;
+	height: 275px;
+	
+}
+.single-product-item:nth-child(2) {
+	width: 64.666%;
+	height: 570px;
+}
+.single-product-item:nth-child(4) {
+	width: 64.666%;
+}
+.single-product-item:nth-child(9) {
+	width: 64.666%;
+}
+a.load-more-btn {
+	padding: 25px 0;
+}
+.product-promotion-area {
+	padding-top: 40px;
+	margin-bottom: 25px;
+}
+.promo-content {
+	padding: 29px 50px 0px 0px;
+	line-height: 1.6;
+}
+.promo-title h2 {
+	font-size: 25px;
+}
+.promo-title span.year-text {
+	left: 42%;
+	font-size: 60px;
+	line-height: 100px;
+}
+.promo-content p {
+	margin-bottom: 20px;
+	font-size: 14px;
+	margin-top: 0px;
+}
+.promo-title {
+	margin-bottom: 15px;
+}
+.footer-area {
+	text-align: center;
+}
+.col-md-6.text-right {
+	text-align: center !important;
+}
+.email-sub-form input[type="email"] {
+	margin-bottom: 12px;
+}
+.social-link a {
+	font-size: 18px;
+}
+.footer-menu ul {
+	font-size: 14px;
+}
+	
+	
+	
+	
+	
+}
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+
+.header-area .header-left ul, .header-area .text-right {
+	display: none;
+}
+.header-area {
+	position: relative;
+	background-color: #F6EBE9;
+	margin-bottom: -2px;
+}
+.header-area a {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+ul.canvas-manu {
+	padding-top: 60px;
+}
+.off-canvas-manu i.far.fa-window-close {
+	font-size: 16px;
+}
+.off-canvas-manu {
+	width: 140px;
+}
+.off-canvas-manu a.search-trigger {
+	font-size: 12px;
+}
+
+.home-page-slider-wrap,.home-page-slider-wrap div {
+	height: auto;
+}
+.home-page-slider-wrap .owl-carousel .owl-item .single-slider img {
+	width: 0% !important;
+}
+
+.slider-text-table {
+	width: 200%;
+}
+.slider-text-tablecell {
+	font-size: 25px;
+	line-height: 40px;
+	position: relative;
+}
+
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next {
+	font-size: 14px;
+}
+
+.big-menu ul li, .big-menu ul li:nth-child(3), .big-menu ul li:nth-child(2), .big-menu ul li:nth-child(4) {
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	font-size: 15px;
+}
+.big-menu ul li a, .big-menu ul li:nth-child(4) a, .big-menu ul li:nth-child(1) a {
+	text-align: center;
+	padding: 12px 40px 0px;
+}
+.big-menu {
+	margin-bottom: 0px;
+}
+.big-menu ul li:hover {
+    opacity: .7;
+}
+.single-product-item {
+	width: 100%;
+}
+.single-product-item:nth-child(2), .single-product-item:nth-child(4), .single-product-item:nth-child(9){
+	width: 100%;
+}
+ .product-list {
+	margin: 40px 0px 20px 0;
+}
+a.load-more-btn {
+	padding: 15px 0;
+	font-size: 12px;
+}
+.product-promotion-area {
+	padding-top: 30px;
+	margin-bottom: 20px;
+}
+.promo-title {
+	margin-bottom: 0px;
+}
+.promo-title h2 {
+	font-size: 20px;
+}
+.promo-title span.year-text {
+	font-size: 50px;
+	line-height: 90px;
+	left: 30%;
+}
+.promo-content p {
+	font-size: 11px;
+	margin-top: 15px;
+}
+.promo-content {
+	padding: 30px 50px 45px 29px;
+	line-height: 1.6;
+}
+.promo-content a.box-btn {
+	width: 75px;
+	padding: 6px 10px;
+}
+.footer-area {
+	text-align: center;
+}
+.col-md-6.text-right {
+	text-align: center !important;
+}
+.email-sub-form input[type="email"] {
+	margin-bottom: 12px;
+}
+.social-link a {
+	font-size: 15px;
+}
+.footer-menu ul {
+	font-size: 10px;
+}
+.footer-menu ul li {
+	padding: 0 6px;
+}
+.footer-menu p{
+	font-size:12px;
+}
+.email-sub-form input[type="email"] {
+	min-width: 214px;
+	padding: 4px 15px;
+}
+.email-sub-form input[type="submit"] {
+	padding: 4px 10px;
+}
+
+
+
+
+}
+
+
+
+/*		Wide Mobile Layout: 400px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+.header-area .header-left ul {
+	display: none;
+}
+.header-area .text-right {
+	text-align: left !important;
+}
+.header-area .text-right {
+	position: absolute;
+	left: 50%;
+}
+.home-page-slider-wrap,.home-page-slider-wrap div {
+	height: auto;
+}
+
+.home-page-slider-wrap .owl-carousel .owl-item .single-slider img {
+	width: 30% !important;
+}
+.single-slider img {
+	left: 90%;
+	margin-left: -250px;
+}
+.slider-text-table {
+	width: 138%;
+}
+.slider-text-tablecell {
+	font-size: 30px;
+	line-height: 42px;
+	position: relative;
+}
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next {
+	font-size: 14px;
+}
+.big-menu ul li, .big-menu ul li:nth-child(3), .big-menu ul li:nth-child(4), .big-menu ul li:nth-child(2) {
+	font-size: 20px;
+	width:25%
+}
+
+.big-menu {
+	margin-top: -10px;
+}
+.big-menu ul li:hover {
+    opacity: .7;
+}
+.single-product-item {
+	width: 100%;
+}
+.single-product-item:nth-child(2), .single-product-item:nth-child(4), .single-product-item:nth-child(9){
+	width: 100%;
+}
+ .product-list {
+	margin: 40px 0px 20px 0;
+}
+a.load-more-btn {
+	padding: 15px 0;
+	font-size: 12px;
+}
+.product-promotion-area {
+	padding-top: 30px;
+	margin-bottom: 20px;
+}
+.promo-title {
+	margin-bottom: 0px;
+}
+.promo-title h2 {
+	font-size: 20px;
+}
+.promo-title span.year-text {
+	font-size: 50px;
+	line-height: 90px;
+	left: 30%;
+}
+.promo-content p {
+	font-size: 11px;
+	margin-top: 15px;
+}
+.promo-content {
+	padding: 30px 50px 45px 29px;
+	line-height: 1.6;
+}
+.footer-area {
+	text-align: center;
+}
+.col-md-6.text-right {
+	text-align: center !important;
+}
+.email-sub-form input[type="email"] {
+	margin-bottom: 12px;
+}
+.social-link a {
+	font-size: 18px;
+}
+.footer-menu ul {
+	font-size: 14px;
+}
+
+
+
+
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
