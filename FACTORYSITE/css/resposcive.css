@@ -1,0 +1,418 @@
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	.address {
+    padding: 3px;
+    display: inline-flex;
+}
+	.socail-link {
+    display: block;
+    padding: 10px;
+}
+	.main-manu li a {
+    padding: 8px 10px;
+}
+	.main-manu ul {
+    padding: 3px 0;
+}
+	.logo a {
+    font-size: 17px;
+    padding: 9px 12px;
+}
+	.owl-theme .owl-dots {
+    width: 720px;
+    left: 15px;
+}
+	.service-box-title {
+    width: 82%;
+    top: 175px;
+    left: 22px;
+}
+	.service-box-title h5 {
+    padding: 15px 5px;
+    font-size: 17px;
+}
+	.service-box-content {
+    padding: 10px;
+    padding-top: 40px;
+}
+	.title {
+    margin-bottom: 50px;
+}
+	.cta-area h4 {
+    font-size: 18px;
+    padding: 0px;
+    line-height: 1.8;
+    text-align: center;
+}
+	.cta-btn {
+    font-size: 14px;
+    padding: 12px 10px;
+}
+	.project-text {
+    text-align: center;
+	margin-bottom: 25px;
+    padding: 20px;
+}
+	.project-img {
+    position: relative;
+    width: 95%;
+}
+	.team-member-area .service-box-bg {
+    height: 400px;
+}
+	.team-member-text {
+    margin-bottom: 25px;
+}
+	.logo-area {
+    padding-top: 40px;
+    padding-bottom: 0;
+}
+	.single-footer-item {
+    padding: 25px;
+    padding-top: 0;
+}
+	
+
+	
+	
+	
+	
+	
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+
+.address {
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+.text-right {
+    text-align: center!important;
+}
+	.socail-link {
+    display: block;
+    padding: 10px;
+}
+	.header-bottom-area .logo {
+    text-align: center;
+}
+	.main-manu li a {
+    padding: 10px 5px;
+}
+	.main-manu ul {
+    padding: 20px 0 10px;
+}
+	.owl-theme .owl-dots {
+    width: 540px;
+    left: 15px;
+	top: -120px;	
+}
+	.slide-text h1 {
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+	.slider-area .d-table-cell {
+    height: 550px;
+}
+	.slide-text .boxed-btn {
+    margin-top: 15px;
+    margin-bottom: 65px;
+}
+	.title {
+    margin-bottom: 45px;
+}
+	.section-padding {
+    padding: 50px 0;
+}
+	.service-box-title {
+    width: 80%;
+    top: 250px;
+    left: 55px;
+}
+	.service-box-bg {
+    height: 280px;
+}
+	.about-us-bordered-img img {
+    width: 100%;
+}
+	.cta-area h4 {
+    font-size: 18px;
+    margin-bottom: 18px;
+    padding-top: 0;
+    line-height: 1.8;
+    text-align: center;
+}
+		.team-member-area .service-box-bg {
+    height: 400px;
+}
+	.team-member-text {
+    margin-bottom: 25px;
+	margin-top: 0;	
+}
+	.logo-area {
+    padding: 0;
+}
+
+	.single-footer-item {
+    padding: 25px;
+    padding-top: 0;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+/*		Wide Mobile Layout: 400px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+.address {
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+.text-right {
+    text-align: center!important;
+}
+	.socail-link {
+    display: block;
+    padding: 10px;
+}
+	.header-bottom-area .logo {
+    text-align: center;
+}
+	.main-manu li a {
+    padding: 10px 10px;
+}
+	.main-manu ul {
+    padding: 20px 0 10px;
+}
+	.owl-theme .owl-dots {
+    width: 540px;
+    left: 15px;
+	top: -120px;	
+}
+	.slide-text h1 {
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+	.slider-area .d-table-cell {
+    height: 550px;
+}
+	.slide-text .boxed-btn {
+    margin-top: 15px;
+    margin-bottom: 65px;
+}
+	.title {
+    margin-bottom: 45px;
+}
+	.section-padding {
+    padding: 50px 0;
+}
+	.service-box-title {
+    width: 80%;
+    top: 250px;
+    left: 55px;
+}
+	.service-box-bg {
+    height: 280px;
+}
+	.about-us-bordered-img img {
+    width: 100%;
+}
+	.cta-area h4 {
+    font-size: 18px;
+    margin-bottom: 18px;
+    padding-top: 0;
+    line-height: 1.8;
+    text-align: center;
+}
+		.team-member-area .service-box-bg {
+    height: 400px;
+}
+	.team-member-text {
+    margin-bottom: 25px;
+	margin-top: 0;	
+}
+	.logo-area {
+    padding: 0;
+}
+
+	.single-footer-item {
+    padding: 25px;
+    padding-top: 0;
+}
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+
+.address {
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+.text-right {
+    text-align: center!important;
+}
+	.socail-link {
+    display: block;
+    padding: 10px;
+}
+	.header-bottom-area .logo {
+    text-align: center;
+}
+	.main-manu li a {
+    padding: 10px 10px;
+}
+	.main-manu ul {
+    padding: 20px 0 10px;
+}
+	.owl-theme .owl-dots {
+    width: 540px;
+    left: 15px;
+	top: -120px;	
+}
+	.slide-text h1 {
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+	.slider-area .d-table-cell {
+    height: 550px;
+}
+	.slide-text .boxed-btn {
+    margin-top: 15px;
+    margin-bottom: 65px;
+}
+	.title {
+    margin-bottom: 45px;
+}
+	.section-padding {
+    padding: 50px 0;
+}
+	.service-box-title {
+    width: 80%;
+    top: 250px;
+    left: 55px;
+}
+	.service-box-bg {
+    height: 280px;
+}
+	.about-us-bordered-img img {
+    width: 100%;
+}
+	.cta-area h4 {
+    font-size: 18px;
+    margin-bottom: 18px;
+    padding-top: 0;
+    line-height: 1.8;
+    text-align: center;
+}
+		.team-member-area .service-box-bg {
+    height: 400px;
+}
+	.team-member-text {
+    margin-bottom: 25px;
+	margin-top: 0;	
+}
+	.logo-area {
+    padding: 0;
+}
+
+	.single-footer-item {
+    padding: 25px;
+    padding-top: 0;
+}
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
